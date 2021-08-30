@@ -8,3 +8,10 @@ class Link(models.Model):
 
     def __str__(self):
         return "{}: {}".format(self.title, self.url)
+
+    def to_json(self):
+        return {
+            "id": self.pk,
+            "url": self.url,
+            "title": self.title
+        }

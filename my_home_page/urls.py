@@ -19,5 +19,6 @@ from my_home_page import views
 
 urlpatterns = [
     path('', views.index, name="index"),
+    path('api/links.json', views.links, name="links"),
     path('admin/', admin.site.urls),
 ]
