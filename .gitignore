@@ -3,3 +3,4 @@
 /my_home_page/env.py
 /.idea/
 *.pyc
+/node_modules/
