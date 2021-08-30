@@ -1,5 +1,6 @@
 <template lang="pug">
-.main main app component
+  .main
+    a(href="/admin/") Admin
 
 </template>
 
