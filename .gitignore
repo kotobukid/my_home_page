@@ -1,0 +1,5 @@
+/db.sqlite3
+/my_home_page/secret.py
+/my_home_page/env.py
+/.idea/
+*.pyc
